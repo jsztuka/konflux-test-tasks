@@ -34,8 +34,10 @@ agents:
           "jsztuka",
           "jencull"
         ]
-create_issues:
-    allow_targets:
-        repos:
-            - konflux-ci/konflux-test-tasks
-            - fullsend-ai/fullsend
+
+tracker:
+    github:
+        allowed_targets:
+            repos:
+                - konflux-ci/konflux-test-tasks
+                - fullsend-ai/fullsend
